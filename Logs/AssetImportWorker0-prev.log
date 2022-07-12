@@ -1,0 +1,909 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'en' Physical Memory: 8127 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+I:/anti bega/bb2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+12196
+Successfully changed project path to: I:/anti bega/bb2
+I:/anti bega/bb2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 109.29 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path I:/anti bega/bb2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: ASUS R7 360 Series (ID=0x665f)
+    Vendor:   ATI
+    VRAM:     2022 MB
+    Driver:   15.201.1001.0
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008291 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 108.12 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.733 seconds
+Domain Reload Profiling:
+	ReloadAssembly (734ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (527ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (119ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006206 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\anti bega\bb2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\anti bega\bb2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.194 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1196ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (930ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (290ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (430ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.00 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3727 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 112 unused Assets / (19.1 MB). Loaded Objects now: 4114.
+Memory consumption went from 183.2 MB to 164.1 MB.
+Total: 19.285100 ms (FindLiveObjects: 0.389500 ms CreateObjectMapping: 0.743100 ms MarkObjects: 2.782500 ms  DeleteObjects: 15.368200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30879.897205 seconds.
+  path: Assets/plane
+  artifactKey: Guid(80deab03c2861af4697786c879b98bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/plane using Guid(80deab03c2861af4697786c879b98bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560ef9b9ee8b39dada906d14ee419390') in 0.020972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.691108 seconds.
+  path: Assets/plane/download.jpg
+  artifactKey: Guid(6eae8175f523113448fe4eff24e1c87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/plane/download.jpg using Guid(6eae8175f523113448fe4eff24e1c87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37797be7b21c7dc6c824d9f1f9085b46') in 0.090603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.690430 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/circle.png
+  artifactKey: Guid(af28470bd0e2e9543a6dfa9a1a4b348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/circle.png using Guid(af28470bd0e2e9543a6dfa9a1a4b348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3368ef3f8a33d195784cace314b041a') in 0.061884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toony Colors Pro/Editor/Fonts/sen/sen-bold.otf
+  artifactKey: Guid(21b3731dcedecc546bf47de8757b4e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Editor/Fonts/sen/sen-bold.otf using Guid(21b3731dcedecc546bf47de8757b4e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af46e7e6a530697b19fdd30bde9c82c') in 0.116208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg
+  artifactKey: Guid(78a59ca99f8987941adb61f9e14a06a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg using Guid(78a59ca99f8987941adb61f9e14a06a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8355456780ca72ef2efa13649fd1d2f') in 0.034761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alert.png
+  artifactKey: Guid(39cacc93c6c183f44992bf2421362f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alert.png using Guid(39cacc93c6c183f44992bf2421362f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6eed6abcb123dc8cc71a533fc8a383') in 0.026725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_bright.png
+  artifactKey: Guid(93b1287b4a087f84c95c72f49ec94e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_bright.png using Guid(93b1287b4a087f84c95c72f49ec94e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f355d4855eca82b19115c9cb19f4ef1d') in 0.048743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png
+  artifactKey: Guid(7051dba417b3d53409f2918f1ea4938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png using Guid(7051dba417b3d53409f2918f1ea4938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3782fa2ffdc24c8d7b6de885bb576325') in 0.046687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/greenSquare.png
+  artifactKey: Guid(789ef07ba2573f6448fa8b5dc5224c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/greenSquare.png using Guid(789ef07ba2573f6448fa8b5dc5224c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68bcf1050d5992eec63ca3886ad86cf4') in 0.022760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/Demigiant/DOTweenPro Examples/Examples Assets/dotweenpro_logo.png
+  artifactKey: Guid(44a054df1702e39458b7072b08d0f212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTweenPro Examples/Examples Assets/dotweenpro_logo.png using Guid(44a054df1702e39458b7072b08d0f212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ec752118314daab1faf315592a3f28') in 0.085212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignB.png
+  artifactKey: Guid(8b6b31f71cd528243b053cfc488e73f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignB.png using Guid(8b6b31f71cd528243b053cfc488e73f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af122c926932e5d3650089939bd68375') in 0.031552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCR.png
+  artifactKey: Guid(6f504a3fa8848264bb4fb9bb7d582dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCR.png using Guid(6f504a3fa8848264bb4fb9bb7d582dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24ba1abe782d40d0d9da362ab7fdfd4') in 0.031858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignHC.png
+  artifactKey: Guid(b9e0e5a8836018e4c810fbceba55a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignHC.png using Guid(b9e0e5a8836018e4c810fbceba55a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c89492c545b852614b55add951443b') in 0.032011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_bundle.png
+  artifactKey: Guid(58676a985ae875646b7be748cf4499fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_bundle.png using Guid(58676a985ae875646b7be748cf4499fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e957823dab7e398cd2bb07f74962467d') in 0.024834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignT.png
+  artifactKey: Guid(b4785ec6d937dab4fa59da70b69afc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignT.png using Guid(b4785ec6d937dab4fa59da70b69afc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d46b5e835cf30d70904b5f5489e7f5') in 0.031538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png
+  artifactKey: Guid(519694efe2bb2914788b151fbd8c01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png using Guid(519694efe2bb2914788b151fbd8c01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d20146e6ee6c8a08a3905468a89e547') in 0.024636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_dark.png
+  artifactKey: Guid(d542f997a51000946873268e3546b6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_dark.png using Guid(d542f997a51000946873268e3546b6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b9182a0ab38bcf246ac9429c423c60') in 0.028756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignVC.png
+  artifactKey: Guid(d1d45eadab0e41c4a82cdffb6396b1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignVC.png using Guid(d1d45eadab0e41c4a82cdffb6396b1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd119a2518020fedfd87568f09693ae4c') in 0.023275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTR.png
+  artifactKey: Guid(e01c0b07c87513844ab88bb432bcf85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTR.png using Guid(e01c0b07c87513844ab88bb432bcf85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575117982eb9ec44852ef54a373f7205') in 0.019172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png
+  artifactKey: Guid(8da095e39e9b4df488dfd436f81116d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png using Guid(8da095e39e9b4df488dfd436f81116d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d069ff439987e24e58552684326e4d') in 0.016445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_atlas.png
+  artifactKey: Guid(e2279677842a8064fbae0bc889fb85ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_atlas.png using Guid(e2279677842a8064fbae0bc889fb85ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b764ea1597312aaf9e69cd2edf60994') in 0.040161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toony Colors Pro/Editor/Fonts/sen/sen-regular.otf
+  artifactKey: Guid(1c46d7c29c394ca4686ed5107ea64a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Editor/Fonts/sen/sen-regular.otf using Guid(1c46d7c29c394ca4686ed5107ea64a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2addf0702a803a4234c8a6f833b1c141') in 0.026232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBC.png
+  artifactKey: Guid(2cdc0bc527f7a434496c6be9236e636f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBC.png using Guid(2cdc0bc527f7a434496c6be9236e636f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677e6c572fd3abf7de3dbae4b19e36fb') in 0.025513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBR.png
+  artifactKey: Guid(eeac3acbf7d1cd54fabfb1c4a12f9fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBR.png using Guid(eeac3acbf7d1cd54fabfb1c4a12f9fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da61cd9bda90161dd1dd1917fd1c5aa') in 0.020343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toony Colors Pro/Editor/Fonts/Roboto/Roboto-Medium.ttf
+  artifactKey: Guid(fbfe696d18b99b946afae6126b37c025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Editor/Fonts/Roboto/Roboto-Medium.ttf using Guid(fbfe696d18b99b946afae6126b37c025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa5d1d006609bdcaccc7901acbe7903') in 0.043497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCC.png
+  artifactKey: Guid(8f0cb66458819764b94b93250bae94b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCC.png using Guid(8f0cb66458819764b94b93250bae94b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c001206a234837337e84df21dd15fd') in 0.032320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toony Colors Pro/Editor/Fonts/Roboto/Roboto-Regular.ttf
+  artifactKey: Guid(8a406076b7de34849be1f35585875a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Editor/Fonts/Roboto/Roboto-Regular.ttf using Guid(8a406076b7de34849be1f35585875a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6bff33d154db85ce21efd68608cf6a') in 0.054980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignL.png
+  artifactKey: Guid(d18ceface0c20014b8db4bba05a41b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignL.png using Guid(d18ceface0c20014b8db4bba05a41b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800a1d376c85106ec67181966df32e3f') in 0.020986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCL.png
+  artifactKey: Guid(2a8208d8e80f90944b8ff2978292b03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCL.png using Guid(2a8208d8e80f90944b8ff2978292b03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686b66db2c361b1b630f41ec24b6e242') in 0.025581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTC.png
+  artifactKey: Guid(0f79253104349f44cb73978f6c8e93de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTC.png using Guid(0f79253104349f44cb73978f6c8e93de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92e89a1cbc99c751f49ebb1e1d4d1f3') in 0.020937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBL.png
+  artifactKey: Guid(abf8a615f379ef44b9ac872a13b7712f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBL.png using Guid(abf8a615f379ef44b9ac872a13b7712f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2ca32ec886bafdf2e15b4917d1d4ba') in 0.036915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/Roboto-Regular.ttf
+  artifactKey: Guid(6ed7389dc6cc157418355b24d4ed743d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/Roboto-Regular.ttf using Guid(6ed7389dc6cc157418355b24d4ed743d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845f344de1808a27f59a65e0776cc41d') in 0.019399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignR.png
+  artifactKey: Guid(727ba41e4cc95fe4a98b07301e3ebfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignR.png using Guid(727ba41e4cc95fe4a98b07301e3ebfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0dcaa0fec20f4720ce0436f7c5ec70') in 0.023134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_audio.png
+  artifactKey: Guid(e1af8927fb6f5634896d59aed409a589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_audio.png using Guid(e1af8927fb6f5634896d59aed409a589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d1bb1b3374043cfd5c3872f40c060c') in 0.022927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTL.png
+  artifactKey: Guid(6efe1c8569d975640ba0c9f2ac4a9d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTL.png using Guid(6efe1c8569d975640ba0c9f2ac4a9d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4688447b9b95f67f3277c9ee0038a409') in 0.055839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toony Colors Pro/Editor/Fonts/Roboto/Roboto-Bold.ttf
+  artifactKey: Guid(26a32e627fb084948ad18b8af0f356b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Editor/Fonts/Roboto/Roboto-Bold.ttf using Guid(26a32e627fb084948ad18b8af0f356b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5ca88a4080cc11329860cc616e5523') in 0.059660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.614890 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera.png
+  artifactKey: Guid(37639be6148186645bca3fce45d5aa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera.png using Guid(37639be6148186645bca3fce45d5aa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05770dca55dcb48d9d4dd492bea8316') in 0.019860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog_border.png
+  artifactKey: Guid(6862027f2176eae40a3143c562466a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog_border.png using Guid(6862027f2176eae40a3143c562466a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d756da4a5d099bb978618dc999a07f6') in 0.042298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment_border.png
+  artifactKey: Guid(d98b8847646169c4fb5af28dd84c4179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment_border.png using Guid(d98b8847646169c4fb5af28dd84c4179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea34e91de2ff3f5c91c0a1ed8b62b875') in 0.026646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_demigiant.png
+  artifactKey: Guid(f36ab42cc6fcdfd4187033279d3d14a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_demigiant.png using Guid(f36ab42cc6fcdfd4187033279d3d14a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103e8fd7abca2b3dfaf2be754ec9c910') in 0.027506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeHAlignT.png
+  artifactKey: Guid(1ccb12a4b0bf8f447b2cc114851732f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeHAlignT.png using Guid(1ccb12a4b0bf8f447b2cc114851732f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf3f8a597ffd37d9ef43f923b08ffb3') in 0.019283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cross.png
+  artifactKey: Guid(3b67e53c8c2f8114b966c0e70d452419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cross.png using Guid(3b67e53c8c2f8114b966c0e70d452419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5bdd4947eef28585d4a39fcf71a42f') in 0.022501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_delete.png
+  artifactKey: Guid(6b1f9e1e1c2cf004b8e3bdd3033a8e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_delete.png using Guid(6b1f9e1e1c2cf004b8e3bdd3033a8e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e712b3cecb1982ffaa8e406ed55bbf10') in 0.019176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeVAlignL.png
+  artifactKey: Guid(32eaa0efb2b38774ea9705b40fdcc00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeVAlignL.png using Guid(32eaa0efb2b38774ea9705b40fdcc00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e97d8b4fe531c1882f63dc6ff7508bf') in 0.025061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera_border.png
+  artifactKey: Guid(358cddede8023574191e0aae610a4645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera_border.png using Guid(358cddede8023574191e0aae610a4645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae94fc6e8f5a70502202f1b72b55f7bb') in 0.020533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog.png
+  artifactKey: Guid(7c83a08052c9e2f49b47897a637994de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog.png using Guid(7c83a08052c9e2f49b47897a637994de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eca371314e0eb738d9d8db6d115ad0f') in 0.022663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_end.png
+  artifactKey: Guid(a248c8288afb9184f953d9aa07a696b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_end.png using Guid(a248c8288afb9184f953d9aa07a696b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cdfdc09dcdb2660c5c34a60aa668e63') in 0.023449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_demigiant.png
+  artifactKey: Guid(229d0d11465a822449f78a50dbf7104d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_demigiant.png using Guid(229d0d11465a822449f78a50dbf7104d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34be46647d5aea01beb7473dc0cb7989') in 0.022365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment.png
+  artifactKey: Guid(622fdb780ae13e840938631c5ed708f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment.png using Guid(622fdb780ae13e840938631c5ed708f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccfa485f05e6b7e5a9ebd63ebf0aac44') in 0.033772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cog.png
+  artifactKey: Guid(fb605a2688b31194887f2e7a6769235b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cog.png using Guid(fb605a2688b31194887f2e7a6769235b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8e393c893d86039c404cd033243e65') in 0.025438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.236950 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_flipV.png
+  artifactKey: Guid(c44ae4a96937e2c4b8be481648364682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_flipV.png using Guid(c44ae4a96937e2c4b8be481648364682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ef9decf3b99f631d2fbbf5d2b3381a') in 0.045386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_closed.png
+  artifactKey: Guid(301c130dbb4bbba4e87072804939c861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_closed.png using Guid(301c130dbb4bbba4e87072804939c861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2238c66ac7798f46291d99db3bab11d2') in 0.014421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_folder.png
+  artifactKey: Guid(4f2c4b43188596b47866d41e1dc13c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_folder.png using Guid(4f2c4b43188596b47866d41e1dc13c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c766aad83db2eb0287cf155bdb0ae3') in 0.022546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart.png
+  artifactKey: Guid(d173388c1d9c32a418b5b777dd89d71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart.png using Guid(d173388c1d9c32a418b5b777dd89d71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec28ef12ba1e95bb7d2e3652c2c0ba8') in 0.029147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_open.png
+  artifactKey: Guid(18a5a7cde794cc04b9b446f0feedb3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_open.png using Guid(18a5a7cde794cc04b9b446f0feedb3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6204efbe8e6a8cecfeb500888f5702da') in 0.014342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock.png
+  artifactKey: Guid(e3d0592dad579e141924133869455c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock.png using Guid(e3d0592dad579e141924133869455c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0387fdcf1390ced7139f7e118384891') in 0.024967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_play.png
+  artifactKey: Guid(2a563a43c33f0f3428d02b3a43886fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_play.png using Guid(2a563a43c33f0f3428d02b3a43886fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218fef999f6e9026a6854f52bbe86ca2') in 0.023521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ok.png
+  artifactKey: Guid(34f39b5a760ddbb4d8b8749852868335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ok.png using Guid(34f39b5a760ddbb4d8b8749852868335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1724a21de4dbb92cb3af63582b435a') in 0.023299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_nodeArrow.png
+  artifactKey: Guid(4aa34055b1d36ef479af3d7b5701b28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_nodeArrow.png using Guid(4aa34055b1d36ef479af3d7b5701b28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8402aa1d47a33f6c2fbfc73f2ab2997') in 0.022474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull.png
+  artifactKey: Guid(01976ad42d31f494e8040d3e32e283dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull.png using Guid(01976ad42d31f494e8040d3e32e283dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4e2c2acbc0f6b4ff49e54a2dff8036') in 0.019765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_play.png
+  artifactKey: Guid(d8306b1e159c72c4ebc9a4fc31debe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_play.png using Guid(d8306b1e159c72c4ebc9a4fc31debe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae85cd8e7b5cdfbc83dec4800e80bfd8') in 0.028847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_star.png
+  artifactKey: Guid(21820ec6fc9dd0b4fbf42a3b93fdad4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_star.png using Guid(21820ec6fc9dd0b4fbf42a3b93fdad4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92108a3123cfbddc655f5b31bbf3932') in 0.026008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_optionsDropdown.png
+  artifactKey: Guid(62a48d93e78c63b4ea9b46537c7c0091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_optionsDropdown.png using Guid(62a48d93e78c63b4ea9b46537c7c0091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220102bf77a1d1b2575d6716062eb13d') in 0.021819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull_border.png
+  artifactKey: Guid(6dfd924c0ba23844fb5d04ad1560de22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull_border.png using Guid(6dfd924c0ba23844fb5d04ad1560de22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ab1443d17b014757f422ccae5fe8b5') in 0.028191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_shaders.png
+  artifactKey: Guid(f252c69cd0163714eba038403f61b09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_shaders.png using Guid(f252c69cd0163714eba038403f61b09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405eee90e4378ca8660bba6834dfae12') in 0.026499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_play_border.png
+  artifactKey: Guid(45e128e1cf00555479ee7934ab11cadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_play_border.png using Guid(45e128e1cf00555479ee7934ab11cadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6e9974beee1245ec0542b8f969f50e') in 0.026078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_skull.png
+  artifactKey: Guid(d563d6ce25cd2ca48b185ec47a74a3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_skull.png using Guid(d563d6ce25cd2ca48b185ec47a74a3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b14d6e6365de1345c137d5fece7f4f') in 0.019337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_particles.png
+  artifactKey: Guid(8003873ab749935489bb11f23f830856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_particles.png using Guid(8003873ab749935489bb11f23f830856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627fb9f996d47c54c44a844f3c706426') in 0.028926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_fonts.png
+  artifactKey: Guid(cf986943c88c2254780c17b2b5e3bc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_fonts.png using Guid(cf986943c88c2254780c17b2b5e3bc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048a0cf5db34df45ef57d1f658ae3463') in 0.021842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_materials.png
+  artifactKey: Guid(e02713e10d7aced44a7a651231f0adef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_materials.png using Guid(e02713e10d7aced44a7a651231f0adef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2802ed447b4011efab037bf6f1192263') in 0.026305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart_border.png
+  artifactKey: Guid(669c487f3c9c5fe4abb6459f9c2628f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart_border.png using Guid(669c487f3c9c5fe4abb6459f9c2628f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35173660525a42fa5d3a8ee056b1311b') in 0.022538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock_open.png
+  artifactKey: Guid(8d60feae84bdb2d4eb16a0037056c588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock_open.png using Guid(8d60feae84bdb2d4eb16a0037056c588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922917ed372808df5438330eec59cca9') in 0.028663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_heart.png
+  artifactKey: Guid(20794834c0a413f408b80110d0fc73b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_heart.png using Guid(20794834c0a413f408b80110d0fc73b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06adab1996d5f5202dd835bc9d563f6c') in 0.025622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_light.png
+  artifactKey: Guid(4f69b96f9308d8f4ea239773ef5b55c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_light.png using Guid(4f69b96f9308d8f4ea239773ef5b55c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6070a85c64eb46790334ea473b0cdc61') in 0.023659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_prefab.png
+  artifactKey: Guid(ed3789262161efa4fa33c85ca534590e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_prefab.png using Guid(ed3789262161efa4fa33c85ca534590e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b5df0b8196f4201b02a6cb05a98103') in 0.021543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_scripts.png
+  artifactKey: Guid(96cbdf605b8ddb34da384703f2d0b849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_scripts.png using Guid(96cbdf605b8ddb34da384703f2d0b849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c41efc2a9922e148c42864099ebf1a') in 0.082079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_models.png
+  artifactKey: Guid(09a0cde07b4d75f49b4c817932791b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_models.png using Guid(09a0cde07b4d75f49b4c817932791b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5aac4759d2599cdfab285a8610f5dfd') in 0.033071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_light_border.png
+  artifactKey: Guid(252f207d01ecc87419cdba1d1c0ab1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_light_border.png using Guid(252f207d01ecc87419cdba1d1c0ab1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312e4bf1b28cebae2aac1edd92676f33') in 0.028281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.263237 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_star.png
+  artifactKey: Guid(645aafe2260b2884a9df05b4bc01b1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_star.png using Guid(645aafe2260b2884a9df05b4bc01b1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7fe19becee414fdca43e5a0c0ea51b') in 0.033366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Additive 3.png
+  artifactKey: Guid(999c0a8caecef6e4b997f93a5af758bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Additive 3.png using Guid(999c0a8caecef6e4b997f93a5af758bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12dc3d05c4aa263b1723525652c926e7') in 0.022262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Backlit.png
+  artifactKey: Guid(416c7f674f095e24da39aa14c96202a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Backlit.png using Guid(416c7f674f095e24da39aa14c96202a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0e92ad6c171b22e8028ca9a0ad55d5') in 0.047071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui.png
+  artifactKey: Guid(cb46e1d925af22d43a6f8bf0e1d459e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui.png using Guid(cb46e1d925af22d43a6f8bf0e1d459e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b085e000b2d29086fda7534a8fca5c0') in 0.018288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Additive 2.png
+  artifactKey: Guid(65282ed7102afc4489337b34cbf9bbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Additive 2.png using Guid(65282ed7102afc4489337b34cbf9bbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c6a19dbaee910cbf76a36abad5abc8') in 0.033046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui_border.png
+  artifactKey: Guid(c0c40ceac3c6df146a0fcd4e6b226540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui_border.png using Guid(c0c40ceac3c6df146a0fcd4e6b226540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce0e4d3b51a04441697863635302e60') in 0.019245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC 4 Colors.png
+  artifactKey: Guid(dde49ae1cadcc4848a8978c7bf8d5671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC 4 Colors.png using Guid(dde49ae1cadcc4848a8978c7bf8d5671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5449d3ae56bb8a9715a0e3fd01444134') in 0.043634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_terrains.png
+  artifactKey: Guid(4a091a7609ef2d34bbdfaa1a886deb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_terrains.png using Guid(4a091a7609ef2d34bbdfaa1a886deb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9831fb3164a185c89f78700467cb98') in 0.028053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Backlit 2.png
+  artifactKey: Guid(e490af91a9f72504b87e28701a1425af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Backlit 2.png using Guid(e490af91a9f72504b87e28701a1425af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872d3a30eb90f648d745bc026b2755cb') in 0.048417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Additive 1.png
+  artifactKey: Guid(4a2220c954a7264459efb3be35445157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Additive 1.png using Guid(4a2220c954a7264459efb3be35445157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46285a845d4d374cbe097311566803b') in 0.034219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility_off.png
+  artifactKey: Guid(0c0132429106c8a4d89d9d0a6b723ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility_off.png using Guid(0c0132429106c8a4d89d9d0a6b723ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840eb5a3fc14fda5e5963dfd3279d8fc') in 0.026588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_star_border.png
+  artifactKey: Guid(18f3a26aa87fccc4cb5e211d4c6de662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_star_border.png using Guid(18f3a26aa87fccc4cb5e211d4c6de662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c95a833a0d275611e89787aa44c186') in 0.032745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_textures.png
+  artifactKey: Guid(3e6b96a975eba1c43b2bad66fb7f8b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_textures.png using Guid(3e6b96a975eba1c43b2bad66fb7f8b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0453e0bfaa26b85eebf97ac7e32e6a7') in 0.031039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility.png
+  artifactKey: Guid(55c2b426022dac44f9b25f0cba28aa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility.png using Guid(55c2b426022dac44f9b25f0cba28aa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f315fee4073c773f8acace49b79155') in 0.028241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.937204 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Basic 1.png
+  artifactKey: Guid(330811522a36c0e41bd3db6f76848d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Basic 1.png using Guid(330811522a36c0e41bd3db6f76848d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55249b4e7bb2af6ad431b753d12098b4') in 0.041685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Metal Gold.png
+  artifactKey: Guid(05cb8fab23c8ef9429ebaf3150311a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Metal Gold.png using Guid(05cb8fab23c8ef9429ebaf3150311a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ec757f203565dc419ce98b176ae841') in 0.049935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Metallic Shiny.png
+  artifactKey: Guid(707658b05bb04cf46b37cd576917d084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Metallic Shiny.png using Guid(707658b05bb04cf46b37cd576917d084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8774f6021c1df8fefc03feeb6f02d206') in 0.032633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Metal Silver.png
+  artifactKey: Guid(bf651ec0a540a5541acf02ef0c0d525d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Metal Silver.png using Guid(bf651ec0a540a5541acf02ef0c0d525d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8616ff93e6c5c784ad7e9b91f99fd5eb') in 0.034737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/orangeSquare.png
+  artifactKey: Guid(3e730492361eb6e45be5c5fdafac23be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/orangeSquare.png using Guid(3e730492361eb6e45be5c5fdafac23be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b7b147b519e202d0e0ec244753933a') in 0.014819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Red Highlight 2.png
+  artifactKey: Guid(89da13b6c5b2314479ce9f80edc02727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Red Highlight 2.png using Guid(89da13b6c5b2314479ce9f80edc02727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01eb2df60d52eb14e4fae9ff9ad4341') in 0.035267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Frontlit.png
+  artifactKey: Guid(be8f4eca082cf42439e1f8efe1eb3d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Frontlit.png using Guid(be8f4eca082cf42439e1f8efe1eb3d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fc50b3773df9e15811eaaa9acac9d6') in 0.034530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Basic 2.png
+  artifactKey: Guid(4f560d178ce29474aa8099a72c40feb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Basic 2.png using Guid(4f560d178ce29474aa8099a72c40feb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5a7002cbead7b10683e16203689a4d') in 0.041107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Rainbow.png
+  artifactKey: Guid(cda2f2cd49bff5a4fa9d69729f6b393c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Rainbow.png using Guid(cda2f2cd49bff5a4fa9d69729f6b393c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b4430371ca6be77914ca95b5ac42db') in 0.042676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Metallic Rough.png
+  artifactKey: Guid(dc03136440dee8845a1b4d55a54fef70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Metallic Rough.png using Guid(dc03136440dee8845a1b4d55a54fef70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e98b1540f1f4be66ba5799ef4090c0d') in 0.040505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Red Highlight.png
+  artifactKey: Guid(766f99fe9d13b8244aa914a9edf9224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Red Highlight.png using Guid(766f99fe9d13b8244aa914a9edf9224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716b566e4f9f83648206b8f5da114994') in 0.039405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Cyan and Purple.png
+  artifactKey: Guid(66c5a6eef50c4524ca969773d4903be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Cyan and Purple.png using Guid(66c5a6eef50c4524ca969773d4903be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2c706cedeb438fb0c3a97f4711c6e1') in 0.034066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Metal Copper.png
+  artifactKey: Guid(382db576e3b678b4ea33e8a4b4647ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Metal Copper.png using Guid(382db576e3b678b4ea33e8a4b4647ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1faf4478faa0240eb3ef1421daeaec') in 0.019462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Orange and Teal.png
+  artifactKey: Guid(ef309140cf1453b4b93171004e4bd179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Orange and Teal.png using Guid(ef309140cf1453b4b93171004e4bd179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981eb4564a06b15623740a4fb7a0fe09') in 0.034056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Reflection.png
+  artifactKey: Guid(b3cb059a9f88e9b42b7df11e48963196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Reflection.png using Guid(b3cb059a9f88e9b42b7df11e48963196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b588d8405cad1bcc21599ec6f6733ad6') in 0.073483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Basic 3.png
+  artifactKey: Guid(25f8197ce96046f478b2322e6b45c090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Basic 3.png using Guid(25f8197ce96046f478b2322e6b45c090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a56c4f7bee495ee3bba311ade80cdb') in 0.043470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Metallic Shiny Orange.png
+  artifactKey: Guid(904a7bba824ee0c418826440aa824947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Metallic Shiny Orange.png using Guid(904a7bba824ee0c418826440aa824947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a97fb922b4d4dc51e3312530ac8077') in 0.044905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Orange and Teal 2.png
+  artifactKey: Guid(83aa404d4631efd44a53cbc98427bf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Orange and Teal 2.png using Guid(83aa404d4631efd44a53cbc98427bf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b886c64dfa52844e67781684e6a34b73') in 0.039644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Metallic Rough Orange.png
+  artifactKey: Guid(1c6b0e9805d2a104fb8e0e4f8e15322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Metallic Rough Orange.png using Guid(1c6b0e9805d2a104fb8e0e4f8e15322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03dd9370ed5103bd7d72ffc4ffcad306') in 0.039415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Rainbow Shiny.png
+  artifactKey: Guid(7b2d79b5fdab0ee408373030bc867629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Rainbow Shiny.png using Guid(7b2d79b5fdab0ee408373030bc867629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2c2eaa7454ac1f978318963053fd16') in 0.038968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toony Colors Pro/Textures/MatCap/MC Reflection 2.png
+  artifactKey: Guid(a814fd27b523f734eb59ae2adb93a8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Colors Pro/Textures/MatCap/MC Reflection 2.png using Guid(a814fd27b523f734eb59ae2adb93a8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b66bb3a6e0e1dd80a70eb03e553a74') in 0.036929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 96.238458 seconds.
+  path: Assets/plane/green-grass-texture-vector-background_87498-1221.jpg
+  artifactKey: Guid(e9ee043e0956afd4a808ece60856a5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/plane/green-grass-texture-vector-background_87498-1221.jpg using Guid(e9ee043e0956afd4a808ece60856a5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa51bdcc2a74471667f72ed38d6b8fa4') in 0.017925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.300376 seconds.
+  path: Assets/plane/Materials
+  artifactKey: Guid(4c8b67c9a0418be4e909cd39cfaa55b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/plane/Materials using Guid(4c8b67c9a0418be4e909cd39cfaa55b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad25f869e9cba38928921fa5483c9dd8') in 0.009814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.081945 seconds.
+  path: Assets/plane/Materials/green-grass-texture-vector-background_87498-1221.mat
+  artifactKey: Guid(774f55495f29d894c9c935ad16afd601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/plane/Materials/green-grass-texture-vector-background_87498-1221.mat using Guid(774f55495f29d894c9c935ad16afd601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ace2efe935923783fd7866771d0c55f') in 0.024458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.023567 seconds.
+  path: Assets/plane/Materials/texture-of-a-stone-wall-old-castle-stone-wall-texture-background-stone-wall-as-a-background-or-texture-part-of-a-stone-wall-for-background-or-texture-400-208021955.jpg
+  artifactKey: Guid(5c2cd534dbbe86a4c96ff8f0d1ebb6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/plane/Materials/texture-of-a-stone-wall-old-castle-stone-wall-texture-background-stone-wall-as-a-background-or-texture-part-of-a-stone-wall-for-background-or-texture-400-208021955.jpg using Guid(5c2cd534dbbe86a4c96ff8f0d1ebb6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77dce5b71d7b8d6c97c84c42380bf625') in 0.020961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.257957 seconds.
+  path: Assets/blocks/Materials/texture-of-a-stone-wall-old-castle-stone-wall-texture-background-stone-wall-as-a-background-or-texture-part-of-a-stone-wall-for-background-or-texture-400-208021955.mat
+  artifactKey: Guid(7284370d728536844af15e77d844914f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/blocks/Materials/texture-of-a-stone-wall-old-castle-stone-wall-texture-background-stone-wall-as-a-background-or-texture-part-of-a-stone-wall-for-background-or-texture-400-208021955.mat using Guid(7284370d728536844af15e77d844914f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f185c3a5223bea77157f1f917425c16f') in 0.009422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.494866 seconds.
+  path: Assets/plane/Materials/Materials
+  artifactKey: Guid(86b04841de04d5e46911778aee8f6edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/plane/Materials/Materials using Guid(86b04841de04d5e46911778aee8f6edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5682de52a1e3a7b196a38d62c704119') in 0.003528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064033 seconds.
+  path: Assets/plane/Materials/Materials/texture-of-a-stone-wall-old-castle-stone-wall-texture-background-stone-wall-as-a-background-or-texture-part-of-a-stone-wall-for-background-or-texture-400-208021955.mat
+  artifactKey: Guid(99af2f50fd2df924eb2a213612905945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/plane/Materials/Materials/texture-of-a-stone-wall-old-castle-stone-wall-texture-background-stone-wall-as-a-background-or-texture-part-of-a-stone-wall-for-background-or-texture-400-208021955.mat using Guid(99af2f50fd2df924eb2a213612905945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa0762fd4c422bdae0ad9d0cfee5a8e') in 0.014518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 160.137857 seconds.
+  path: Assets/player/download.jpg
+  artifactKey: Guid(824f54c47dbb7a74db39389dc2c1d72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/download.jpg using Guid(824f54c47dbb7a74db39389dc2c1d72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0be34edaae461c050a034fdf0c91876') in 0.020192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 126.617601 seconds.
+  path: Assets/wall
+  artifactKey: Guid(64bc938d5d14734458a8891eaa3f59b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wall using Guid(64bc938d5d14734458a8891eaa3f59b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108bb5f4aaf2ea941e0861adf803d514') in 0.008645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.773126 seconds.
+  path: Assets/wall/images.jpg
+  artifactKey: Guid(301daca8135e65840b65987d2dd215b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wall/images.jpg using Guid(301daca8135e65840b65987d2dd215b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781b066bc5ba2354745ae0fda9f869e0') in 0.046119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.589635 seconds.
+  path: Assets/wall/Materials
+  artifactKey: Guid(137777e6531ed2d41807f42f62e79fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wall/Materials using Guid(137777e6531ed2d41807f42f62e79fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fe59c1552fa54c454f08c123bebf15') in 0.003426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 123.968265 seconds.
+  path: Assets/blocks/orange.mat
+  artifactKey: Guid(81e7ecc0c0b62cc499ddd1dcdc8d15e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/blocks/orange.mat using Guid(81e7ecc0c0b62cc499ddd1dcdc8d15e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32377fd7ea9f77e99f2dce53c8039a50') in 0.022973 seconds 
