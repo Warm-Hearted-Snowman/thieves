@@ -5,7 +5,7 @@ using UnityEngine;
 public class ball : MonoBehaviour
 {
     public Rigidbody rb;
-    int ballmove=5500;
+    int ballmove=500;
     //int ballback = 25;
     int ballwall = 2000;
     // Start is called before the first frame update
